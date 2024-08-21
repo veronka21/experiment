@@ -1,0 +1,23 @@
+<!-- <p>photo-test works!</p>
+<input #cameraInput type="file" accept="image/*" capture="environment" id="cameraInput" (change)="valChange($event)">
+<button (click)="clear()">Clear</button> -->
+
+<div>
+    <label class="abacus-btn btn-text" for="cameraInput">Start Camera</label>
+    <input type="file" accept="image/*" capture="environment" id="cameraInput" (change)="valChange($event)" style="display: none;">
+    <button (click)="saveImage()">Save Image</button>
+    <button (click)="deleteImage()">Clear</button>
+</div>
+<img [src]="capturedImageSrc" *ngIf="capturedImageSrc" alt="Captured Image" class="captured-image">
+
+
+<!-- 
+<div style="display: none;">
+    <canvas #canvas ></canvas>
+</div>
+
+<div class="canvas">
+    <img class="preview-img" [src]="previewSrc" alt="">
+</div> -->
+
+<!-- <img [src]="previewSrc" class="preview-img"> -->

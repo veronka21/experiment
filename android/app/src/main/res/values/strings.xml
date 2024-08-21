@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">experiment-app-pwa</string>
+    <string name="title_activity_main">experiment-app-pwa</string>
+    <string name="package_name">exp.app.pwa</string>
+    <string name="custom_url_scheme">exp.app.pwa</string>
+</resources>

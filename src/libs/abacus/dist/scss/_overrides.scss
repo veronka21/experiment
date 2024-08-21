@@ -1,0 +1,175 @@
+// Compatible with @progress/kendo-theme-bootstrap v.7.0.0
+
+%tb-typography {
+  @include typography-classes($tb-typography);
+}
+
+%tb-effects {
+  @include effects-classes($tb-effects);
+}
+
+    .k-button.k-rounded-md{
+        border-bottom-left-radius: 6.25rem;
+                border-bottom-right-radius: 6.25rem;
+                border-top-left-radius: 6.25rem;
+                border-top-right-radius: 6.25rem;
+        
+}
+    .k-stepper .k-step-list .k-step .k-step-link .k-step-indicator{
+        border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                padding-bottom: 0.4375rem;
+                padding-left: 0.4375rem;
+                padding-right: 0.4375rem;
+                padding-top: 0.4375rem;
+                row-gap: initial;
+                flex-direction: row-reverse;
+                column-gap: 0.375rem;
+                background-color: $tb-kendo-base-bg-2;
+                background-image: none;
+                width: 8rem;
+        
+}
+    .k-stepper .k-step-list .k-step.k-focus .k-step-link .k-step-indicator,.k-stepper .k-step-list  .k-step.k-state-focus .k-step-link .k-step-indicator,.k-stepper .k-step-list  .k-step.k-state-focused .k-step-link .k-step-indicator,.k-stepper .k-step-list  .k-step:focus .k-step-link .k-step-indicator{
+        border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+        
+}
+    .k-stepper .k-step-list .k-step.k-focus .k-step-link .k-step-indicator::after,.k-stepper .k-step-list  .k-step.k-state-focus .k-step-link .k-step-indicator::after,.k-stepper .k-step-list  .k-step.k-state-focused .k-step-link .k-step-indicator::after,.k-stepper .k-step-list  .k-step:focus .k-step-link .k-step-indicator::after{
+        border-bottom-left-radius: 6.25rem;
+                border-bottom-right-radius: 6.25rem;
+                border-top-left-radius: 6.25rem;
+                border-top-right-radius: 6.25rem;
+                margin-bottom: 3px;
+                margin-left: 3px;
+                margin-right: 3px;
+                margin-top: 3px;
+                padding-bottom: 0.4375rem;
+                padding-left: 0.4375rem;
+                padding-right: 0.4375rem;
+                padding-top: 0.4375rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        
+}
+    .k-stepper .k-step-list .k-step.k-step-done .k-step-link .k-step-indicator{
+        background-color: $tb-kendo-color-primary;
+                background-image: none;
+        
+}
+    .k-stepper .k-step-list .k-step.k-step-current .k-step-link .k-step-indicator{
+        background-color: $tb-kendo-color-primary;
+                background-image: none;
+        
+}
+    .k-stepper .k-step-list .k-step.k-step-success.k-step-done .k-step-link .k-step-indicator .k-icon.k-svg-icon.k-step-indicator-icon{
+        outline-color: $tb-kendo-base-bg;
+                background-color: #1D6E89;
+                background-image: none;
+                border-bottom-left-radius: 62.5rem;
+                border-bottom-right-radius: 62.5rem;
+                border-top-left-radius: 62.5rem;
+                border-top-right-radius: 62.5rem;
+        
+}
+    .k-stepper .k-step-list .k-step.k-step-success.k-step-done .k-step-link .k-step-indicator .k-icon.k-svg-icon.k-step-indicator-icon >svg{
+        display: block;
+                row-gap: initial;
+                column-gap: initial;
+        
+}
+    .k-stepper .k-step-list .k-step.k-focus .k-step-link,.k-stepper .k-step-list  .k-step.k-state-focus .k-step-link,.k-stepper .k-step-list  .k-step.k-state-focused .k-step-link,.k-stepper .k-step-list  .k-step:focus .k-step-link{
+        border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+        
+}
+    .k-stepper .k-progressbar.k-progressbar-horizontal .k-progress-status-wrap{
+        padding-bottom: 0.625rem;
+                padding-left: 0.625rem;
+                padding-right: 0.625rem;
+                padding-top: 0.625rem;
+        
+}
+    .k-stepper .k-progressbar.k-progressbar-horizontal{
+        align-self: start;
+                background-color: $tb-kendo-base-bg-2;
+                background-image: none;
+                display: flex;
+        
+}
+    .k-stepper .k-progressbar.k-progressbar-horizontal .k-progressbar-value.k-selected{
+        width: 1%;
+                background-color: $tb-kendo-color-primary;
+                background-image: none;
+        
+}
+    .k-stepper .k-step-list .k-step.k-step-done.k-disabled .k-step-link .k-step-indicator,.k-stepper .k-step-list  .k-step.k-step-done.k-state-disabled .k-step-link .k-step-indicator,.k-stepper .k-step-list  .k-step.k-step-done:disabled .k-step-link .k-step-indicator{
+        background-color: #b7c6cd;
+                background-image: none;
+        
+}
+    .k-list.k-list-md .k-list-content .k-list-ul .k-list-item.k-selected{
+        background-color: $tb-abacus;
+                background-image: none;
+        
+}
+    .k-menu-popup .k-group.k-menu-group .k-item.k-menu-item .k-link.k-menu-link.k-active,.k-menu-popup .k-group.k-menu-group .k-item.k-menu-item  .k-link.k-menu-link.k-state-active,.k-menu-popup .k-group.k-menu-group .k-item.k-menu-item  .k-link.k-menu-link:active{
+        background-color: $tb-abacus;
+                background-image: none;
+        
+}
+    .k-button .k-button-text{
+        font-weight: 700;
+                line-height: 1.5rem;
+                font-size: 1rem;
+                font-family: Roboto;
+        
+}
+    .k-textbox.k-input.k-input-solid .k-input-inner{
+                        @extend %tb-typography-input-dark;
+              color: #495057;
+        
+}
+    .k-list.k-list-md .k-list-content .k-list-ul .k-list-item .k-list-item-text{
+                        @extend %tb-typography-input-dark;
+              color: $tb-dd-dark;
+        
+}
+    .k-dialog-wrapper .k-window.k-dialog{
+        border-bottom-left-radius: 0.25rem;
+                border-bottom-right-radius: 0.25rem;
+                border-top-left-radius: 0.25rem;
+                border-top-right-radius: 0.25rem;
+        
+}
+    .k-dialog-wrapper .k-window.k-dialog .k-window-actions.k-dialog-actions.k-actions.k-actions-stretched{
+        flex-direction: column;
+        
+}
+    .k-stepper .k-step-list .k-step.k-hover .k-step-link .k-step-indicator,.k-stepper .k-step-list  .k-step.k-state-hover .k-step-link .k-step-indicator,.k-stepper .k-step-list  .k-step.k-state-hovered .k-step-link .k-step-indicator,.k-stepper .k-step-list  .k-step:hover .k-step-link .k-step-indicator{
+        border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+        
+}
+    .k-stepper .k-step-list .k-step .k-step-link{
+        border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+        
+}
+    .k-stepper .k-step-list .k-step .k-step-link .k-step-indicator .k-step-indicator-text{
+        display: block;
+                width: $tb-kendo-border-radius;
+                height: unset;
+        
+}

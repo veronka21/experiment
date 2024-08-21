@@ -1,0 +1,11 @@
+<!-- <button (click)="takePhoto()">Take photo</button> -->
+<!-- <button (click)="scan()">Scan barcode</button> -->
+<button (click)="handleDetectBarcode()">Scan barcode</button>
+<!-- <div>
+    <video #video width="640" height="480" autoplay></video>
+</div> -->
+
+<zxing-scanner [formats]="allowedFormats" (scanSuccess)="scannedBarcode($event)"></zxing-scanner>
+
+<h1>{{scanResult}}</h1>
+<h1>{{message}}</h1>
